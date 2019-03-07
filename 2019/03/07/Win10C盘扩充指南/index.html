@@ -27,7 +27,7 @@
 <meta property="og:image" content="https://qinkuai.github.io/2019/03/07/Win10C盘扩充指南/picture9.png">
 <meta property="og:image" content="https://qinkuai.github.io/2019/03/07/Win10C盘扩充指南/picture10.png">
 <meta property="og:image" content="https://qinkuai.github.io/2019/03/07/Win10C盘扩充指南/picture11.png">
-<meta property="og:updated_time" content="2019-03-07T15:48:49.820Z">
+<meta property="og:updated_time" content="2019-03-07T15:52:23.052Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Win10 C盘扩充指南">
 <meta name="twitter:description" content="​    是不是在为自己的C、D盘分配不合理而烦恼呢？是不是在为自己的C盘常红而D盘省了一大堆而烦恼呢？是不是在为解决不了这个问题而烦恼呢？来这里就对了!">
@@ -183,7 +183,7 @@
       
         <p>​    <strong><font color="#0000FF">是不是在为自己的C、D盘分配不合理而烦恼呢？是不是在为自己的C盘常红而D盘省了一大堆而烦恼呢？是不是在为解决不了这个问题而烦恼呢？来这里就对了!</font></strong></p>
 <a id="more"></a>
-<h2 id="Win10-C盘扩充指南："><a href="#Win10-C盘扩充指南：" class="headerlink" title="Win10 C盘扩充指南："></a>Win10 C盘扩充指南：</h2><h4 id="前言："><a href="#前言：" class="headerlink" title="前言："></a>前言：</h4><p>​    <strong>在小白的世界（没错，就是指我）里，第一次买电脑简直就是人间试炼。尤其是在实体店去选购，就更像是前往未知的神秘领域一般。我现在在役的这台笔记本就是当时在实体店买下的，老板问了我一个致命的问题，</strong></p>
+<h1 id="Win10-C盘扩充指南："><a href="#Win10-C盘扩充指南：" class="headerlink" title="Win10 C盘扩充指南："></a>Win10 C盘扩充指南：</h1><h2 id="前言："><a href="#前言：" class="headerlink" title="前言："></a>前言：</h2><p>​    <strong>在小白的世界（没错，就是指我）里，第一次买电脑简直就是人间试炼。尤其是在实体店去选购，就更像是前往未知的神秘领域一般。我现在在役的这台笔记本就是当时在实体店买下的，老板问了我一个致命的问题，</strong></p>
 <p>​    <strong>Q:    “128的固态你想怎么分区？”</strong></p>
 <p>​    <strong>A:    “那就C、D盘各一半呗。”</strong></p>
 <p>​    <strong>就是这个要人命的决定，让我这个软件专业的人的C盘常年都是<font color="#FF0000">红色</font>的，还一直都装不上那吃C盘的VS。</strong></p>
@@ -192,8 +192,7 @@
 <p>​    <strong>假装C盘是<font color="#FF0000">红色</font>的，已经<font color="#FF0000">快爆了</font>的感觉！！<font color="#FF0000">Bomb</font>！！</strong></p>
 <p><img src="/2019/03/07/Win10C盘扩充指南/picture1.png" alt></p>
 <hr>
-<h3 id="进入主题："><a href="#进入主题：" class="headerlink" title="进入主题："></a>进入主题：</h3><hr>
-<h4 id="1-常规思路："><a href="#1-常规思路：" class="headerlink" title="1.常规思路："></a>1.常规思路：</h4><p>​    <strong><em>（当然常规的垃圾清理也是非常必要的，这个功能Win10也自带，当然使用一些电脑管家的垃圾清扫也是可以的，但这毕竟是日常的基本操作，所以也就不考虑什么一扫垃圾几个G的情况来解放C盘了）</em></strong></p>
+<h2 id="进入主题："><a href="#进入主题：" class="headerlink" title="进入主题："></a>进入主题：</h2><h3 id="1-常规思路："><a href="#1-常规思路：" class="headerlink" title="1.常规思路："></a>1.常规思路：</h3><p>​    <strong><em>（当然常规的垃圾清理也是非常必要的，这个功能Win10也自带，当然使用一些电脑管家的垃圾清扫也是可以的，但这毕竟是日常的基本操作，所以也就不考虑什么一扫垃圾几个G的情况来解放C盘了）</em></strong></p>
 <p>​    <strong>想必大家都知道Windows是自带硬盘管理工具的，</strong></p>
 <p>​    <strong>Win10的话：</strong></p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">此电脑 -&gt; 计算机 -&gt; 管理</span><br></pre></td></tr></table></figure>
@@ -209,7 +208,7 @@
 <hr>
 <p>​    <strong>同时你也可以将刚分出来的H盘重新又还回D盘，我就不演示了。</strong></p>
 <p>​    <strong>但是实际操作过后便可以知道，说的形象一点，<code>只有相邻的两个分区</code>可以直接通过上述手段来实现容量转移。而C和D之间隔着一个用户不能动的分区，因此仅通过这种方法是无法实现的。（但普通的硬盘分区还是可以在这里实现的）</strong></p>
-<h4 id="2-换个思路："><a href="#2-换个思路：" class="headerlink" title="2.换个思路："></a>2.换个思路：</h4><p>​    <strong>给大家推荐一个分区助手，免费软件，功能相当强大。</strong></p>
+<h3 id="2-换个思路："><a href="#2-换个思路：" class="headerlink" title="2.换个思路："></a>2.换个思路：</h3><p>​    <strong>给大家推荐一个分区助手，免费软件，功能相当强大。</strong></p>
 <p>​    <a href="http://www.disktool.cn/" target="_blank" rel="noopener">AOMEI分区助手</a></p>
 <p>​    <strong>进入主页之后就能直接免费下载了，国产软件，主页肯定是中文的，放心使用。（大胆）</strong></p>
 <p>​    <img src="/2019/03/07/Win10C盘扩充指南/picture5.png" alt></p>
@@ -231,7 +230,7 @@
 <p>​    <strong>哎，算了，其实软件也为你提供了对应的解决方法，这个WinPE就对小白比较不友好了。</strong></p>
 <p>​    <strong>如果大家有看过或者自己装过Windows的系统，就一定看到过或是遇到过这个界面。其实就是让我们再深入一层去实现C、D容量转移。</strong></p>
 <p>​    <strong><font color="#0000FF">但是只要是不用重装系统的方法都是好方法！！</font></strong></p>
-<h4 id="3-再度进阶："><a href="#3-再度进阶：" class="headerlink" title="3.再度进阶："></a>3.再度进阶：</h4><p>​    <strong>这就是这个软件强大的地方了，直接为你提供了一个专门用来分区的WinPE，</strong></p>
+<h3 id="3-再度进阶："><a href="#3-再度进阶：" class="headerlink" title="3.再度进阶："></a>3.再度进阶：</h3><p>​    <strong>这就是这个软件强大的地方了，直接为你提供了一个专门用来分区的WinPE，</strong></p>
 <p>​    <strong>这时你需要的只是一个U盘，当然容量必须得在1G以上才行（虽然现在大家的U盘容量都快比我第一块固态大了，而且这个总的下来只有不到500M）。</strong></p>
 <p>​    <strong>但有一件事一点要强调一下，毕竟有完全不看程序给的警告和提示的人：</strong>    </p>
 <p>​    <strong><font color="#FF0000">一定要是个空U盘，或是将数据备份，因为启动盘制作过程中会格式化掉你的U盘。</font></strong></p>
@@ -239,7 +238,7 @@
 <p>​    <img src="/2019/03/07/Win10C盘扩充指南/picture8.png" alt></p>
 <hr>
 <p>​    </p>
-<p><strong>之后便是一顿下一步，然后就是选择其中的U盘制作，然后就是等待了。</strong></p>
+<p>​    <strong>之后便是一顿下一步，然后就是选择其中的U盘制作，然后就是等待了。</strong></p>
 <p><img src="/2019/03/07/Win10C盘扩充指南/picture9.png" alt></p>
 <hr>
 <p>​    <strong>然后就是插着这个做好的启动盘重启计算机，我的建议是插着重启。</strong></p>
@@ -257,7 +256,7 @@
 <p>​    <strong>这样你最终就能实现不在重装系统的情况下，扩充C盘的容量。</strong></p>
 <p>​    <strong>当然你也能通过这个方式实现一些更骚的操作，这就任君操作了，我这就算抛砖引玉了吧。</strong></p>
 <hr>
-<h4 id="小后记："><a href="#小后记：" class="headerlink" title="小后记："></a>小后记：</h4><p>​    <strong>虽说自己鸽掉了自己之前承诺的博客搭建详细教程，但是没办法嘛，在做了啦，在做了啦。</strong></p>
+<h2 id="小后记："><a href="#小后记：" class="headerlink" title="小后记："></a>小后记：</h2><p>​    <strong>虽说自己鸽掉了自己之前承诺的博客搭建详细教程，但是没办法嘛，在做了啦，在做了啦。</strong></p>
 <p>​    <strong>主要还是因为自己切身地遇到了这个问题，而且被这个问题困扰了很久。通过不断地搜索前人的建议和做法，最终是解决了这个问题。因此也就急切地想将这个心得分享出来。</strong></p>
 <p>​    <strong><font color="#0000FF">最后宣传一下自己的简陋博客吧！！</font></strong></p>
 <p>​    <a href="https://qinkuai.github.io">QinKuai</a></p>
